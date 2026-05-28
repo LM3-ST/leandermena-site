@@ -1,5 +1,12 @@
-﻿https://leandermena.pages.dev/*
-  X-Robots-Tag: noindex
+/*
+  Cache-Control: no-cache, must-revalidate
+  X-Deploy-Version: 2026-05-28-dark
 
-https://www.leandermena.com/*
-  X-Robots-Tag: index, follow
+/*.html
+  Cache-Control: no-store
+
+/*.jpg
+  Cache-Control: public, max-age=2592000, immutable
+
+/*.css
+  Cache-Control: public, max-age=86400
