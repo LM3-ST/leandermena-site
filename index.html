@@ -4,15 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leander Mena | Miami Hospitality &amp; F&amp;B Operations Leader</title>
-  <meta name="description" content="Leander Mena is a Miami-based hospitality and F&B operations leader with 18+ years opening and running restaurants, hotels, banquets, and catering across South Florida." />
+  <meta name="description" content="Fractional F&B operations leadership for Miami restaurants, hotels &amp; new openings. 18+ years opening, stabilizing, and scaling hospitality operations across South Florida." />
   <link rel="canonical" href="https://www.leandermena.com/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Leander Mena | Miami Hospitality &amp; F&amp;B Operations Leader" />
-  <meta property="og:description" content="Leander Mena is a Miami-based hospitality and F&B operations leader with 18+ years in South Florida restaurants and hotels." />
+  <meta property="og:description" content="Fractional F&B operations leadership for Miami restaurants, hotels and new openings. 18+ years in South Florida hospitality." />
   <meta property="og:url" content="https://www.leandermena.com/" />
   <meta property="og:image" content="https://www.leandermena.com/about.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -28,14 +27,14 @@
     "description": "Leander Mena is a Miami-based hospitality and food-and-beverage operations leader with 18+ years of experience opening, leading, and stabilizing restaurants, hotels, banquets, and catering operations across South Florida.",
     "address": {"@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "addressCountry": "US"},
     "knowsAbout": ["Restaurant Operations","Hotel F&B Management","Pre-Opening Restaurant Launch","Banquet Operations","Catering Management","P&L Management","SOP Development","Team Training","Fractional GM Services"],
-    "sameAs": ["https://www.linkedin.com/in/leandermena/","https://www.leandermena.com/about","https://www.leandermena.com/leander-mena-miami-hospitality"]
+    "sameAs": ["https://www.linkedin.com/in/leandermena/","https://www.leandermena.com/about.html","https://www.leandermena.com/leander-mena-miami-hospitality.html"]
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Leander Mena -- Hospitality & F&B Consulting",
+    "name": "Leander Mena - Hospitality & F&B Consulting",
     "url": "https://www.leandermena.com",
     "description": "Fractional F&B operations leadership and pre-opening consulting for Miami restaurants, hotels, and hospitality groups.",
     "address": {"@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "addressCountry": "US"},
@@ -44,186 +43,280 @@
     "founder": {"@type": "Person", "name": "Leander Mena"}
   }
   </script>
+
   <style>
+    /* ── RESET & BASE ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    body { font-family: 'Inter', system-ui, sans-serif; font-size: 16px; line-height: 1.6; color: #e8e8e8; background: #0a0a0a; min-height: 100dvh; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: #b8a080; text-decoration: none; transition: color 180ms ease; }
+    a:hover { color: #c9b89a; }
+
+    /* ── TOKENS ── */
     :root {
-      --color-bg: #f7f6f2;
-      --color-surface: #ffffff;
-      --color-text: #1a1916;
-      --color-text-muted: #5a5955;
-      --color-primary: #01696f;
-      --color-primary-hover: #0c4e54;
-      --color-border: #dcd9d4;
-      --color-accent-light: #cedcd8;
-      --font-body: 'Inter', system-ui, sans-serif;
-      --space-1:0.25rem; --space-2:0.5rem; --space-3:0.75rem;
-      --space-4:1rem; --space-6:1.5rem; --space-8:2rem;
-      --space-10:2.5rem; --space-12:3rem; --space-16:4rem;
-      --radius-sm:0.375rem; --radius-md:0.5rem; --radius-lg:0.75rem;
-      --shadow-sm:0 1px 3px rgba(26,25,22,0.07);
-      --shadow-md:0 4px 14px rgba(26,25,22,0.10);
-      --content-default:1080px;
+      --gold:        #b8a080;
+      --gold-light:  #c9b89a;
+      --gold-dark:   #8c7555;
+      --gold-muted:  #d4c4a8;
+      --lux-black:   #0a0a0a;
+      --lux-dark:    #111111;
+      --lux-card:    #141414;
+      --lux-border:  #2a2a2a;
+      --lux-text:    #e8e8e8;
+      --lux-muted:   #888888;
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-serif:   'Cormorant Garamond', Georgia, serif;
+      --font-sans:    'Inter', system-ui, sans-serif;
     }
-    html { scroll-behavior:smooth; -webkit-font-smoothing:antialiased; }
-    body {
-      font-family: var(--font-body);
-      font-size: 1rem; line-height: 1.65;
-      color: var(--color-text); background: var(--color-bg);
-      min-height: 100dvh;
-    }
-    img { display:block; max-width:100%; height:auto; }
-    a { color:var(--color-primary); text-decoration:none; }
-    a:hover { color:var(--color-primary-hover); text-decoration:underline; }
 
-    /* LAYOUT */
-    .container { max-width:var(--content-default); margin-inline:auto; padding-inline:var(--space-6); }
+    /* ── LAYOUT ── */
+    .container { max-width: 1100px; margin-inline: auto; padding-inline: 24px; }
 
-    /* HEADER */
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp   { from { opacity:0; transform:translateY(30px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes fadeIn   { from { opacity:0; } to { opacity:1; } }
+    @keyframes shimmer  { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+    @keyframes float    { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    @keyframes dividerGrow { from{width:0;opacity:0} to{width:80px;opacity:1} }
+
+    .anim-fade-up  { opacity:0; animation: fadeUp  0.8s ease-out forwards; }
+    .anim-fade-in  { opacity:0; animation: fadeIn  0.6s ease-out forwards; }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.35s; }
+    .delay-4 { animation-delay: 0.5s; }
+    .delay-5 { animation-delay: 0.65s; }
+    .delay-6 { animation-delay: 0.8s; }
+    .delay-7 { animation-delay: 1s; }
+
+    /* ── NAV ── */
     .site-header {
-      position:sticky; top:0; z-index:100;
-      background:rgba(247,246,242,0.96);
-      backdrop-filter:blur(8px);
-      border-bottom:1px solid var(--color-border);
-      padding-block:var(--space-4);
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      background: rgba(10,10,10,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(184,160,128,0.12);
+      padding: 16px 0;
+      transition: background 300ms ease;
     }
-    .nav { display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); }
-    .brand {
-      font-weight:700; font-size:1.1rem;
-      color:var(--color-text); text-decoration:none;
-      display:flex; flex-direction:column; line-height:1.2;
-    }
-    .brand small { font-size:0.72rem; font-weight:400; color:var(--color-text-muted); letter-spacing:0.02em; }
-    .nav-links { display:flex; gap:var(--space-6); flex-wrap:wrap; }
-    .nav-links a { font-size:0.875rem; font-weight:500; color:var(--color-text-muted); text-decoration:none; transition:color 180ms ease; }
-    .nav-links a:hover { color:var(--color-primary); text-decoration:none; }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .brand { font-family: var(--font-display); font-weight:700; font-size:17px; color:var(--lux-text); text-decoration:none; display:flex; flex-direction:column; line-height:1.2; }
+    .brand small { font-family: var(--font-sans); font-size:10px; font-weight:400; color:var(--lux-muted); letter-spacing:0.1em; text-transform:uppercase; }
+    .nav-links { display:flex; gap:24px; flex-wrap:wrap; }
+    .nav-links a { font-size:13px; font-weight:500; color:var(--lux-muted); letter-spacing:0.03em; transition:color 180ms ease; }
+    .nav-links a:hover { color:var(--gold); }
 
-    /* HERO */
+    /* ── HERO ── */
     .hero {
-      padding-block:clamp(3rem,8vw,7rem);
-      background:var(--color-bg);
-      border-bottom:1px solid var(--color-border);
+      position:relative; min-height:100vh;
+      display:flex; align-items:center; justify-content:center; overflow:hidden;
     }
-    .hero-grid {
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:var(--space-12);
-      align-items:start;
+    .hero-bg {
+      position:absolute; inset:0;
+      background-image: url('landing-hero.jpg');
+      background-size:cover; background-position:center;
+      filter:brightness(0.35);
+      transform:scale(1.03);
+      transition:transform 8s ease-out;
     }
-    .kicker {
-      display:inline-block; font-size:0.75rem; font-weight:600;
-      letter-spacing:0.08em; text-transform:uppercase;
-      color:var(--color-primary); margin-bottom:var(--space-4);
+    .hero-bg::after {
+      content:'';
+      position:absolute; inset:0;
+      background: radial-gradient(ellipse at center, rgba(184,160,128,0.10) 0%, transparent 65%),
+                  linear-gradient(to bottom, rgba(10,10,10,0.4) 0%, transparent 40%, rgba(10,10,10,0.85) 100%);
     }
-    .hero h1 {
-      font-size:clamp(1.75rem,3.5vw,2.75rem);
-      font-weight:800; line-height:1.15;
-      letter-spacing:-0.02em; color:var(--color-text);
-      margin-bottom:var(--space-4); max-width:36ch;
-    }
-    .lead { font-size:1.05rem; color:var(--color-text-muted); max-width:52ch; margin-bottom:var(--space-8); }
-    .hero-card {
-      background:var(--color-surface);
-      border:1px solid var(--color-border);
-      border-radius:var(--radius-lg);
-      padding:var(--space-8);
-      box-shadow:var(--shadow-md);
-    }
+    .hero-glow-l { position:absolute; top:25%; left:20%; width:420px; height:420px; background:rgba(184,160,128,0.06); border-radius:50%; filter:blur(120px); pointer-events:none; }
+    .hero-glow-r { position:absolute; bottom:25%; right:20%; width:340px; height:340px; background:rgba(184,160,128,0.05); border-radius:50%; filter:blur(100px); pointer-events:none; }
+    .hero-inner { position:relative; z-index:10; text-align:center; padding: 140px 24px 80px; max-width:900px; margin:0 auto; }
+
     .eyebrow {
-      font-size:0.72rem; font-weight:600;
-      letter-spacing:0.07em; text-transform:uppercase;
-      color:var(--color-primary); margin-bottom:var(--space-3);
+      display:inline-block; font-family:var(--font-sans);
+      font-size:11px; font-weight:600; letter-spacing:0.25em; text-transform:uppercase;
+      color:var(--gold); border:1px solid rgba(184,160,128,0.35);
+      padding:6px 18px; margin-bottom:28px;
     }
-    .hero-card h3 { font-size:1.15rem; font-weight:700; margin-bottom:var(--space-3); line-height:1.3; }
-    .hero-card p { font-size:0.9rem; color:var(--color-text-muted); margin-bottom:var(--space-6); }
-    .metric {
-      display:grid; grid-template-columns:1fr 1fr; gap:var(--space-4);
-      border-top:1px solid var(--color-border); padding-top:var(--space-6);
+    .hero-name {
+      font-family: var(--font-display);
+      font-size: clamp(3.5rem, 10vw, 7rem);
+      font-weight:800; line-height:0.95; letter-spacing:0.02em;
+      color: var(--lux-text); margin-bottom:28px;
     }
-    .metric div { display:flex; flex-direction:column; gap:2px; }
-    .metric strong { font-size:1.4rem; font-weight:800; color:var(--color-primary); line-height:1; }
-    .metric span { font-size:0.75rem; color:var(--color-text-muted); }
-
-    /* BAND */
-    .band { background:var(--color-primary); padding-block:var(--space-4); }
-    .band-list { display:flex; flex-wrap:wrap; gap:var(--space-6); justify-content:center; }
-    .band-list span { font-size:0.8rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#fff; opacity:0.9; }
-
-    /* SECTIONS */
-    .section { padding-block:clamp(3rem,6vw,5rem); border-bottom:1px solid var(--color-border); }
-    .section h2 { font-size:clamp(1.4rem,2.5vw,2rem); font-weight:800; letter-spacing:-0.02em; margin-bottom:var(--space-3); }
-    .section-intro { font-size:1rem; color:var(--color-text-muted); max-width:62ch; margin-bottom:var(--space-8); }
-
-    /* GRIDS */
-    .grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:var(--space-6); margin-bottom:var(--space-8); }
-    .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-6); }
-
-    /* CARDS */
-    .card {
-      background:var(--color-surface);
-      border:1px solid var(--color-border);
-      border-radius:var(--radius-lg);
-      padding:var(--space-6);
-      box-shadow:var(--shadow-sm);
-      transition:box-shadow 180ms ease, transform 180ms ease;
+    .divider-gold {
+      width:80px; height:1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      margin:0 auto 28px; animation: dividerGrow 0.8s ease-out 0.3s both;
     }
-    .card:hover { box-shadow:var(--shadow-md); transform:translateY(-2px); }
-    .card h3 { font-size:1rem; font-weight:700; margin-bottom:var(--space-3); line-height:1.3; }
-    .card p { font-size:0.875rem; color:var(--color-text-muted); margin-bottom:var(--space-4); }
-    .card a { font-size:0.875rem; font-weight:600; }
+    .hero-sub {
+      font-family:var(--font-sans); font-size:11px; font-weight:500;
+      letter-spacing:0.28em; text-transform:uppercase;
+      color:var(--lux-muted); margin-bottom:28px;
+    }
+    .hero-tagline {
+      font-family: var(--font-serif); font-style:italic;
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color:rgba(184,160,128,0.75); line-height:1.7;
+      max-width:600px; margin:0 auto 40px;
+    }
+    .hero-cta { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; }
 
-    /* BUTTONS */
-    .btn {
-      display:inline-flex; align-items:center; gap:var(--space-2);
-      padding:0.625rem 1.25rem; border-radius:var(--radius-md);
-      font-size:0.875rem; font-weight:600;
+    /* ── BUTTONS ── */
+    .btn-primary {
+      display:inline-flex; align-items:center; gap:8px;
+      padding:13px 28px; font-size:13px; font-weight:600;
+      letter-spacing:0.05em; text-transform:uppercase;
+      background:var(--gold); color:#0a0a0a;
+      border:1px solid var(--gold); cursor:pointer;
+      transition:background 180ms ease, color 180ms ease;
       text-decoration:none;
-      transition:background 180ms ease, color 180ms ease, border-color 180ms ease;
-      cursor:pointer; border:1.5px solid transparent;
     }
-    .btn-primary { background:var(--color-primary); color:#fff; border-color:var(--color-primary); }
-    .btn-primary:hover { background:var(--color-primary-hover); border-color:var(--color-primary-hover); color:#fff; text-decoration:none; }
-    .btn-secondary { background:transparent; color:var(--color-primary); border-color:var(--color-primary); }
-    .btn-secondary:hover { background:var(--color-accent-light); color:var(--color-primary-hover); text-decoration:none; }
-    .inline-cta { display:flex; gap:var(--space-3); flex-wrap:wrap; align-items:center; }
+    .btn-primary:hover { background:var(--gold-light); border-color:var(--gold-light); color:#0a0a0a; }
+    .btn-secondary {
+      display:inline-flex; align-items:center; gap:8px;
+      padding:13px 28px; font-size:13px; font-weight:600;
+      letter-spacing:0.05em; text-transform:uppercase;
+      background:transparent; color:var(--lux-text);
+      border:1px solid rgba(184,160,128,0.4); cursor:pointer;
+      transition:border-color 180ms ease, color 180ms ease, background 180ms ease;
+      text-decoration:none;
+    }
+    .btn-secondary:hover { border-color:var(--gold); color:var(--gold); background:rgba(184,160,128,0.05); }
 
-    /* CTA PANELS */
-    .cta-panel {
-      background:var(--color-surface);
-      border:1px solid var(--color-border);
-      border-radius:var(--radius-lg);
-      padding:var(--space-8);
+    /* ── STATS BAR ── */
+    .stats-bar {
+      position:relative; z-index:10;
+      margin-top:64px;
+      display:grid; grid-template-columns:repeat(4, 1fr);
+      gap:1px; background:rgba(184,160,128,0.12);
+      border:1px solid rgba(184,160,128,0.15);
     }
-    .cta-panel h2 { font-size:1.35rem; font-weight:800; margin-bottom:var(--space-4); }
-    .cta-panel p { color:var(--color-text-muted); margin-bottom:var(--space-6); }
-    .list { list-style:none; margin-bottom:var(--space-6); display:flex; flex-direction:column; gap:var(--space-3); }
-    .list li { font-size:0.9rem; color:var(--color-text-muted); padding-left:var(--space-4); position:relative; }
-    .list li::before { content:'\2192'; position:absolute; left:0; color:var(--color-primary); font-weight:600; }
+    .stat-item {
+      background:rgba(20,20,20,0.7);
+      backdrop-filter:blur(8px);
+      padding:24px 20px; text-align:center;
+    }
+    .stat-icon { color:var(--gold); margin:0 auto 10px; font-size:18px; }
+    .stat-value { font-family:var(--font-serif); font-size:2rem; color:var(--lux-text); line-height:1; margin-bottom:4px; }
+    .stat-label { font-size:10px; letter-spacing:0.15em; text-transform:uppercase; color:var(--lux-muted); }
 
-    /* FOOTER */
-    .footer {
-      padding-block:var(--space-8);
-      border-top:1px solid var(--color-border);
-      font-size:0.82rem; color:var(--color-text-muted);
+    /* ── TRUST STRIP ── */
+    .trust-strip {
+      background:rgba(17,17,17,0.8);
+      border-top:1px solid rgba(42,42,42,0.8);
+      border-bottom:1px solid rgba(42,42,42,0.8);
+      padding:20px 0;
     }
-    .footer a { color:var(--color-text-muted); }
-    .footer a:hover { color:var(--color-primary); text-decoration:underline; }
+    .trust-list { display:flex; flex-wrap:wrap; justify-content:center; gap:12px 32px; }
+    .trust-list span { font-size:11px; letter-spacing:0.15em; text-transform:uppercase; color:rgba(136,136,136,0.65); }
 
-    /* RESPONSIVE */
-    @media (max-width:900px) {
-      .hero-grid { grid-template-columns:1fr; }
-      .grid-3 { grid-template-columns:1fr 1fr; }
-      .grid-2 { grid-template-columns:1fr; }
+    /* ── SECTIONS ── */
+    .section { padding:96px 0; }
+    .section-dark  { background:var(--lux-black); }
+    .section-mid   { background:var(--lux-dark); }
+    .section-header { text-align:center; margin-bottom:60px; }
+    .section-header .eyebrow { margin-bottom:16px; }
+    .section-h2 {
+      font-family:var(--font-serif);
+      font-size:clamp(2rem, 4vw, 3rem);
+      color:var(--lux-text); margin-bottom:16px; line-height:1.2;
     }
-    @media (max-width:600px) {
-      .nav-links { display:none; }
-      .grid-3 { grid-template-columns:1fr; }
-      .metric { grid-template-columns:1fr 1fr; }
-      .inline-cta { flex-direction:column; align-items:flex-start; }
-      .band-list { gap:var(--space-3); }
+    .section-intro { color:var(--lux-muted); max-width:600px; margin:0 auto; font-size:15px; line-height:1.75; }
+
+    /* ── CARDS ── */
+    .card-grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:rgba(42,42,42,0.5); }
+    .card-grid-4 { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(42,42,42,0.5); }
+    .card-grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+    .lux-card {
+      background:var(--lux-card); padding:32px;
+      border-bottom:2px solid transparent;
+      transition:border-color 250ms ease, background 250ms ease;
+    }
+    .lux-card:hover { border-bottom-color:var(--gold); background:rgba(20,20,20,0.95); }
+    .card-eyebrow { font-size:10px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; }
+    .card-title { font-family:var(--font-serif); font-size:1.25rem; color:var(--lux-text); margin-bottom:10px; line-height:1.3; }
+    .card-body { font-size:14px; color:var(--lux-muted); line-height:1.7; margin-bottom:16px; }
+    .card-link { font-size:12px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--gold); }
+    .card-link:hover { color:var(--gold-light); }
+
+    /* ── CTA PANELS ── */
+    .cta-panel { background:var(--lux-card); border:1px solid var(--lux-border); padding:40px; }
+    .cta-panel h2 { font-family:var(--font-serif); font-size:1.6rem; color:var(--lux-text); margin-bottom:16px; }
+    .cta-panel p  { font-size:14px; color:var(--lux-muted); line-height:1.75; margin-bottom:24px; }
+    .cta-list { list-style:none; margin-bottom:28px; }
+    .cta-list li {
+      font-size:14px; color:#aaa; padding:10px 0 10px 20px;
+      border-bottom:1px solid rgba(42,42,42,0.8);
+      position:relative; line-height:1.5;
+    }
+    .cta-list li::before { content:"→"; position:absolute; left:0; color:var(--gold); font-size:12px; }
+
+    /* ── WHY SECTION ── */
+    .why-grid { display:grid; grid-template-columns:1fr 1fr; gap:72px; align-items:center; }
+    .why-list { list-style:none; margin-bottom:36px; }
+    .why-list li { display:flex; gap:16px; margin-bottom:20px; }
+    .why-icon { width:40px; height:40px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:rgba(184,160,128,0.1); color:var(--gold); font-size:16px; }
+    .why-list h4 { font-size:14px; font-weight:600; color:var(--lux-text); margin-bottom:3px; }
+    .why-list p  { font-size:13px; color:var(--lux-muted); }
+    .why-visual {
+      aspect-ratio:4/5; background:linear-gradient(135deg, var(--lux-card), var(--lux-dark));
+      border:1px solid var(--lux-border); position:relative; overflow:hidden;
+    }
+    .why-visual-glow {
+      position:absolute; inset:0;
+      background:radial-gradient(ellipse at bottom left, rgba(184,160,128,0.18) 0%, transparent 60%);
+    }
+    .why-visual-inner { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
+    .why-visual-content { text-align:center; padding:48px; }
+    .why-medal { width:80px; height:80px; border-radius:50%; background:rgba(184,160,128,0.1); display:flex; align-items:center; justify-content:center; margin:0 auto 28px; font-size:36px; }
+    .why-stats-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:24px; }
+    .why-stat-val { font-family:var(--font-serif); font-size:1.75rem; color:var(--gold); }
+    .why-stat-label { font-size:10px; color:var(--lux-muted); letter-spacing:0.12em; text-transform:uppercase; margin-top:2px; }
+
+    /* ── PROCESS ── */
+    .process-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:40px; position:relative; }
+    .process-step-num { font-family:var(--font-serif); font-size:3.5rem; color:rgba(184,160,128,0.15); line-height:1; margin-bottom:12px; }
+    .process-step-title { font-family:var(--font-serif); font-size:1.1rem; color:var(--lux-text); margin-bottom:8px; }
+    .process-step-body { font-size:13px; color:var(--lux-muted); line-height:1.7; }
+    .process-connector { position:absolute; top:32px; left:25%; right:0; height:1px; background:linear-gradient(to right, rgba(42,42,42,0.8), transparent); pointer-events:none; }
+
+    /* ── FINAL CTA BANNER ── */
+    .cta-banner {
+      background:linear-gradient(135deg, rgba(20,20,20,0.95) 0%, rgba(10,10,10,0.98) 100%);
+      border-top:1px solid rgba(184,160,128,0.2); border-bottom:1px solid rgba(184,160,128,0.2);
+      padding:80px 0; text-align:center;
+    }
+    .cta-banner h2 { font-family:var(--font-serif); font-size:clamp(1.8rem,3.5vw,2.8rem); color:var(--lux-text); margin-bottom:16px; }
+    .cta-banner p  { color:var(--lux-muted); max-width:520px; margin:0 auto 36px; font-size:15px; line-height:1.7; }
+    .cta-banner-btns { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; }
+
+    /* ── FOOTER ── */
+    .site-footer { background:#0a0a0a; border-top:1px solid var(--lux-border); padding:28px 0; }
+    .footer-inner { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; font-size:12px; color:var(--lux-muted); }
+    .footer-inner a { color:#666; }
+    .footer-inner a:hover { color:var(--gold); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .stats-bar        { grid-template-columns:1fr 1fr; }
+      .card-grid-3      { grid-template-columns:1fr; }
+      .card-grid-4      { grid-template-columns:1fr 1fr; }
+      .card-grid-2      { grid-template-columns:1fr; }
+      .why-grid         { grid-template-columns:1fr; }
+      .why-visual       { display:none; }
+      .process-grid     { grid-template-columns:1fr 1fr; }
+      .process-connector{ display:none; }
+    }
+    @media (max-width: 600px) {
+      .stats-bar        { grid-template-columns:1fr 1fr; }
+      .card-grid-4      { grid-template-columns:1fr; }
+      .process-grid     { grid-template-columns:1fr; }
+      .nav-links        { display:none; }
+      .hero-inner       { padding-top:110px; }
     }
   </style>
 </head>
 <body>
+
+  <!-- ── HEADER ── -->
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html">Leander Mena<small>Hospitality &amp; F&amp;B Operations</small></a>
@@ -240,157 +333,309 @@
   </header>
 
   <main>
+
+    <!-- ── HERO ── -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <span class="kicker">Miami hospitality consulting</span>
-          <h1>Leander Mena &mdash; Fractional F&amp;B Operations Leadership for Miami Restaurants &amp; Hotels</h1>
-          <p class="lead">18+ years opening, stabilizing, and scaling hospitality operations across Miami. Leander Mena partners with owners and leadership teams who need senior operational expertise without the full-time overhead.</p>
-          <div class="inline-cta">
-            <a class="btn btn-primary" href="contact.html">Discuss Your Project</a>
-            <a class="btn btn-secondary" href="pre-opening.html">View Pre-Opening Support</a>
+      <div class="hero-bg"></div>
+      <div class="hero-glow-l"></div>
+      <div class="hero-glow-r"></div>
+
+      <div class="hero-inner">
+        <div class="anim-fade-up delay-1">
+          <span class="eyebrow">Miami, Florida</span>
+        </div>
+
+        <h1 class="hero-name anim-fade-up delay-2">Leander Mena</h1>
+
+        <div class="divider-gold"></div>
+
+        <p class="hero-sub anim-fade-up delay-3">Hospitality &amp; Food-and-Beverage Operations</p>
+
+        <p class="hero-tagline anim-fade-up delay-4">
+          18+ years opening, leading, and growing restaurants, hotels, banquets, and catering operations across Miami — now available as fractional leadership.
+        </p>
+
+        <div class="hero-cta anim-fade-up delay-5">
+          <a class="btn-primary" href="contact.html">Start the Conversation</a>
+          <a class="btn-secondary" href="services.html">View Services</a>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-bar anim-fade-up delay-7">
+          <div class="stat-item">
+            <div class="stat-icon">⏱</div>
+            <div class="stat-value">18+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">📈</div>
+            <div class="stat-value">$12M+</div>
+            <div class="stat-label">Revenue Optimized</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">👥</div>
+            <div class="stat-value">500+</div>
+            <div class="stat-label">Team Members Trained</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🏨</div>
+            <div class="stat-value">40+</div>
+            <div class="stat-label">Properties Operated</div>
           </div>
         </div>
-        <aside class="hero-card">
-          <div class="eyebrow">What Leander Mena does</div>
-          <h3>Turn operational experience into measurable business results.</h3>
-          <p>Leander Mena helps restaurant owners, hotel operators, and investors bring structure to hiring, service standards, cost control, and launch execution across Miami and South Florida.</p>
-          <div class="metric">
-            <div><strong>18+</strong><span>years in Miami hospitality</span></div>
-            <div><strong>4</strong><span>core consulting offers</span></div>
-            <div><strong>On-site</strong><span>preferred for South Florida teams</span></div>
-            <div><strong>Hybrid</strong><span>available for SOP and planning work</span></div>
-          </div>
-        </aside>
       </div>
     </section>
 
-    <div class="band">
-      <div class="container band-list">
-        <span>Pre-Opening GM</span>
-        <span>P&amp;L Oversight</span>
-        <span>SOP Development</span>
-        <span>Team Training</span>
-        <span>Cost Control</span>
-        <span>Banquet &amp; Catering Operations</span>
+    <!-- ── TRUST STRIP ── -->
+    <div class="trust-strip">
+      <div class="container">
+        <div class="trust-list">
+          <span>Michelin-Star Concepts</span>
+          <span>Luxury Hotels</span>
+          <span>SLS Hotels</span>
+          <span>Accor Properties</span>
+          <span>Independent Restaurants</span>
+          <span>Multi-Unit Groups</span>
+        </div>
       </div>
     </div>
 
-    <section class="section">
+    <!-- ── SERVICES ── -->
+    <section class="section section-dark">
       <div class="container">
-        <h2>What Leander Mena Does</h2>
-        <p class="section-intro">Leander Mena brings 18+ years of hands-on Miami hospitality experience to every engagement. Whether you need fractional leadership, pre-opening support, or operations recovery, the focus is always the same: install systems that work and build teams that execute.</p>
-        <div class="grid-3">
-          <article class="card">
-            <div class="eyebrow">Fractional leadership</div>
-            <h3>Fractional F&amp;B Leadership</h3>
-            <p>For restaurants and hotel groups that need a veteran operator 2&ndash;4 days per week. Leander Mena steps in to stabilize operations, build systems, and develop your team.</p>
-            <a href="services.html">Learn more &rarr;</a>
+        <div class="section-header">
+          <span class="eyebrow">Consulting Services</span>
+          <h2 class="section-h2">Operational Leadership, On Demand</h2>
+          <p class="section-intro">Four engagement models designed to meet you where you are — from pre-opening builds to operational turnarounds.</p>
+        </div>
+        <div class="card-grid-4">
+          <article class="lux-card">
+            <div class="card-eyebrow">Fractional Leadership</div>
+            <h3 class="card-title">Fractional F&amp;B Leadership</h3>
+            <p class="card-body">For restaurants and hotel groups that need a veteran operator 2–4 days per week. Step in to stabilize operations, build systems, and develop your team.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
           </article>
-          <article class="card">
-            <div class="eyebrow">New concept support</div>
-            <h3>Pre-Opening &amp; New Concept Builds</h3>
-            <p>From construction walkthroughs to opening night, Leander Mena helps build the team, writes SOPs, coordinates vendors, and creates an operating backbone before doors open.</p>
-            <a href="pre-opening.html">Learn more &rarr;</a>
+          <article class="lux-card">
+            <div class="card-eyebrow">New Concept Support</div>
+            <h3 class="card-title">Pre-Opening &amp; New Concept Builds</h3>
+            <p class="card-body">From construction walkthroughs to opening night — build the team, write SOPs, coordinate vendors, and create an operating backbone before doors open.</p>
+            <a class="card-link" href="pre-opening.html">Learn more →</a>
           </article>
-          <article class="card">
-            <div class="eyebrow">Performance recovery</div>
-            <h3>Operations Recovery &amp; Restructuring</h3>
-            <p>When labor costs drift, service standards drop, or turnover hurts consistency, Leander Mena diagnoses quickly and installs systems that stick.</p>
-            <a href="services.html">Learn more &rarr;</a>
+          <article class="lux-card">
+            <div class="card-eyebrow">Performance Recovery</div>
+            <h3 class="card-title">Operations Recovery &amp; Restructuring</h3>
+            <p class="card-body">When labor costs drift, service standards drop, or turnover hurts consistency — diagnose quickly and install systems that stick.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+          <article class="lux-card">
+            <div class="card-eyebrow">Banquet &amp; Catering</div>
+            <h3 class="card-title">Banquet &amp; Catering Operations</h3>
+            <p class="card-body">High-volume event leadership for hotels, venues, and catering groups across South Florida. Pre-opening setup, staffing models, and execution systems.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
           </article>
         </div>
-        <div class="inline-cta">
-          <a class="btn btn-primary" href="services.html">View All Services</a>
+        <div style="text-align:center;margin-top:36px;">
+          <a class="btn-secondary" href="services.html">View All Services &amp; Details →</a>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <!-- ── EXPERIENCE ── -->
+    <section class="section section-mid">
       <div class="container">
-        <h2>Selected Experience</h2>
-        <p class="section-intro">Leander Mena has led F&amp;B operations at some of Miami&rsquo;s most recognized hospitality properties, from pre-opening hotel builds to high-volume restaurant management.</p>
-        <div class="grid-3">
-          <article class="card">
-            <div class="eyebrow">Maska Indian Kitchen + Bar</div>
-            <h3>Opening General Manager</h3>
-            <p>Leander Mena built the opening team, vendor relationships, service standards, and operational systems for a Miami concept led by a Michelin-starred chef.</p>
+        <div class="section-header">
+          <span class="eyebrow">Selected Experience</span>
+          <h2 class="section-h2">Miami's Most Recognized Hospitality Properties</h2>
+          <p class="section-intro">18+ years of hands-on leadership across pre-openings, hotel F&amp;B, and high-volume restaurant operations.</p>
+        </div>
+        <div class="card-grid-3">
+          <article class="lux-card">
+            <div class="card-eyebrow">Maska Indian Kitchen + Bar</div>
+            <h3 class="card-title">Opening General Manager</h3>
+            <p class="card-body">Built the opening team, vendor relationships, service standards, and operational systems for a Miami concept led by a Michelin-starred chef.</p>
           </article>
-          <article class="card">
-            <div class="eyebrow">SLS Brickell</div>
-            <h3>Director of Banquets &mdash; Pre-Opening</h3>
-            <p>Created staffing models, event workflows, and banquet execution systems for a luxury urban hotel before first guest arrival.</p>
+          <article class="lux-card">
+            <div class="card-eyebrow">SLS Brickell</div>
+            <h3 class="card-title">Director of Banquets — Pre-Opening</h3>
+            <p class="card-body">Created staffing models, event workflows, and banquet execution systems for a luxury urban hotel before first guest arrival.</p>
           </article>
-          <article class="card">
-            <div class="eyebrow">Marabu Restaurant</div>
-            <h3>General Manager</h3>
-            <p>Led labor optimization, service consistency, and guest-experience improvement for a high-volume restaurant in Miami.</p>
+          <article class="lux-card">
+            <div class="card-eyebrow">Marabu Restaurant | Coal Fire Cuban Cuisine</div>
+            <h3 class="card-title">General Manager</h3>
+            <p class="card-body">Led labor optimization, service consistency, and guest-experience improvement for a high-volume Miami concept.</p>
           </article>
         </div>
-        <div class="inline-cta">
-          <a class="btn btn-secondary" href="experience.html">Full Career History</a>
-          <a class="btn btn-secondary" href="leander-mena-miami-hospitality.html">Full Professional Profile</a>
+        <div style="text-align:center;margin-top:36px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+          <a class="btn-secondary" href="experience.html">Full Career History →</a>
+          <a class="btn-secondary" href="leander-mena-miami-hospitality.html">Full Professional Profile →</a>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container grid-2">
-        <div class="cta-panel">
-          <h2>Who This Is For</h2>
-          <ul class="list">
-            <li>Independent restaurant owners opening their first or second location in Miami</li>
-            <li>Hotel management companies needing banquet or pre-opening leadership</li>
-            <li>Multi-concept groups experiencing operational drift between locations</li>
-            <li>Investors who acquired a hospitality asset and need quick stabilization</li>
-          </ul>
-          <a class="btn btn-primary" href="contact.html">Is this your project?</a>
-        </div>
-        <div class="cta-panel">
-          <h2>Let&rsquo;s Build Something That Runs Well.</h2>
-          <p>Whether you&rsquo;re 90 days from opening or trying to fix a difficult quarter, the next move is obvious: start the conversation with Leander Mena.</p>
-          <div class="inline-cta">
-            <a class="btn btn-primary" href="contact.html">Email Leander</a>
-            <a class="btn btn-secondary" href="services.html">See Engagement Options</a>
+    <!-- ── WHY FRACTIONAL ── -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="why-grid">
+          <div>
+            <span class="eyebrow">The Difference</span>
+            <h2 class="section-h2" style="text-align:left;margin-bottom:20px;">Why Operators Choose Fractional Leadership</h2>
+            <p style="color:var(--lux-muted);font-size:15px;line-height:1.8;margin-bottom:32px;">
+              Most hospitality groups don't need another full-time executive. They need a seasoned operator who can diagnose issues fast, implement systems that stick, and transfer knowledge to your existing team — without the overhead of a permanent hire.
+            </p>
+            <ul class="why-list">
+              <li>
+                <div class="why-icon">⚡</div>
+                <div><h4>Rapid Diagnosis</h4><p>Identify root causes within the first week, not months.</p></div>
+              </li>
+              <li>
+                <div class="why-icon">✓</div>
+                <div><h4>Systems That Stick</h4><p>SOPs and training programs your team will actually follow.</p></div>
+              </li>
+              <li>
+                <div class="why-icon">★</div>
+                <div><h4>Proven Track Record</h4><p>18+ years across Michelin concepts, luxury hotels, and independents.</p></div>
+              </li>
+              <li>
+                <div class="why-icon">↑</div>
+                <div><h4>Measurable ROI</h4><p>Average 3–5× return on consulting investment within 6 months.</p></div>
+              </li>
+            </ul>
+            <a class="btn-primary" href="about.html">Learn More About Leander</a>
+          </div>
+          <div class="why-visual">
+            <div class="why-visual-glow"></div>
+            <div class="why-visual-inner">
+              <div class="why-visual-content">
+                <div class="why-medal">🏆</div>
+                <p class="section-h2" style="font-size:1.6rem;margin-bottom:8px;">18+ Years</p>
+                <p style="color:var(--lux-muted);font-size:13px;max-width:220px;margin:0 auto;">Of hands-on hospitality leadership across Miami's most demanding venues</p>
+                <div class="divider-gold" style="margin:24px auto;"></div>
+                <div class="why-stats-grid">
+                  <div><div class="why-stat-val">$12M+</div><div class="why-stat-label">Revenue Optimized</div></div>
+                  <div><div class="why-stat-val">500+</div><div class="why-stat-label">Team Members</div></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <!-- ── WHO IT'S FOR ── -->
+    <section class="section section-mid">
       <div class="container">
-        <h2>Latest Articles by Leander Mena</h2>
-        <div class="grid-3">
-          <article class="card">
-            <div class="eyebrow">Pre-Opening</div>
-            <h3>The Miami Pre-Opening Playbook</h3>
-            <p>Leander Mena breaks down the 90-day framework for taking a Miami restaurant from empty shell to opening night &mdash; staffing, SOPs, vendors, and training.</p>
-            <a href="blog/miami-pre-opening-playbook.html">Read article &rarr;</a>
+        <div class="card-grid-2">
+          <div class="cta-panel">
+            <h2>Who This Is For</h2>
+            <ul class="cta-list">
+              <li>Independent restaurant owners opening their first or second Miami location</li>
+              <li>Hotel management companies needing banquet or pre-opening leadership</li>
+              <li>Multi-concept groups experiencing operational drift between locations</li>
+              <li>Investors who acquired a hospitality asset and need quick stabilization</li>
+            </ul>
+            <a class="btn-primary" href="contact.html">Is this your project?</a>
+          </div>
+          <div class="cta-panel">
+            <h2>Let's Build Something That Runs Well.</h2>
+            <p>Whether you're 90 days from opening or trying to fix a difficult quarter, the next move is simple: start the conversation with Leander Mena.</p>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <a class="btn-primary" href="contact.html">Email Leander</a>
+              <a class="btn-secondary" href="services.html">See Engagement Options</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESS ── -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">How It Works</span>
+          <h2 class="section-h2">From First Call to Measurable Results</h2>
+        </div>
+        <div class="process-grid">
+          <div>
+            <div class="process-step-num">01</div>
+            <h3 class="process-step-title">Discovery Call</h3>
+            <p class="process-step-body">30-minute conversation to understand your challenges, timeline, and goals.</p>
+          </div>
+          <div>
+            <div class="process-step-num">02</div>
+            <h3 class="process-step-title">On-Site Diagnostic</h3>
+            <p class="process-step-body">Deep-dive assessment of your operations, typically 3–5 days on location.</p>
+          </div>
+          <div>
+            <div class="process-step-num">03</div>
+            <h3 class="process-step-title">Implementation</h3>
+            <p class="process-step-body">Execute the action plan with weekly check-ins and real-time adjustments.</p>
+          </div>
+          <div>
+            <div class="process-step-num">04</div>
+            <h3 class="process-step-title">Sustainable Results</h3>
+            <p class="process-step-body">Handover systems, train your team, and ensure improvements stick long-term.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ARTICLES ── -->
+    <section class="section section-mid">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Latest Articles</span>
+          <h2 class="section-h2">Insights from the Floor</h2>
+        </div>
+        <div class="card-grid-3">
+          <article class="lux-card">
+            <div class="card-eyebrow">Pre-Opening</div>
+            <h3 class="card-title">The Miami Pre-Opening Playbook</h3>
+            <p class="card-body">The 90-day framework for taking a Miami restaurant from empty shell to opening night — staffing, SOPs, vendors, and training.</p>
+            <a class="card-link" href="blog/miami-pre-opening-playbook.html">Read article →</a>
           </article>
-          <article class="card">
-            <div class="eyebrow">Fractional Leadership</div>
-            <h3>What a Fractional GM Actually Does</h3>
-            <p>Most restaurant owners have heard the term. Few understand what fractional F&amp;B leadership actually looks like week to week. Leander Mena explains.</p>
-            <a href="blog/what-fractional-gm-does.html">Read article &rarr;</a>
+          <article class="lux-card">
+            <div class="card-eyebrow">Fractional Leadership</div>
+            <h3 class="card-title">What a Fractional GM Actually Does</h3>
+            <p class="card-body">Most restaurant owners have heard the term. Few understand what fractional F&amp;B leadership actually looks like week to week.</p>
+            <a class="card-link" href="blog/what-fractional-gm-does.html">Read article →</a>
           </article>
-          <article class="card">
-            <div class="eyebrow">Operations</div>
-            <h3>Labor Cost Control in Miami Restaurants</h3>
-            <p>Leander Mena shares the scheduling and productivity systems he has used across 18+ years to keep labor cost in line without sacrificing service.</p>
-            <a href="blog/labor-cost-control-miami-restaurants.html">Read article &rarr;</a>
+          <article class="lux-card">
+            <div class="card-eyebrow">Operations</div>
+            <h3 class="card-title">Labor Cost Control in Miami Restaurants</h3>
+            <p class="card-body">The scheduling and productivity systems used across 18+ years to keep labor cost in line without sacrificing service.</p>
+            <a class="card-link" href="blog/labor-cost-control-miami-restaurants.html">Read article →</a>
           </article>
         </div>
       </div>
     </section>
+
+    <!-- ── FINAL CTA BANNER ── -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Let's Build Something That Runs Well</h2>
+        <p>Whether you're 90 days from opening or trying to fix a difficult quarter, the next move is simple: start the conversation.</p>
+        <div class="cta-banner-btns">
+          <a class="btn-primary" href="contact.html">Start the Conversation</a>
+          <a class="btn-secondary" href="services.html">Explore Services</a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      Miami, Florida &middot; Fractional F&amp;B leadership &middot; Pre-opening consulting &middot; SOP development
-      &middot; <a href="https://www.linkedin.com/in/leandermena/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      &middot; <a href="leander-mena-miami-hospitality.html">Professional Profile</a>
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Leander Mena · Miami, Florida</span>
+      <span>Fractional F&amp;B Leadership · Pre-Opening Consulting · SOP Development</span>
+      <span>
+        <a href="https://www.linkedin.com/in/leandermena/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        &nbsp;·&nbsp;
+        <a href="leander-mena-miami-hospitality.html">Professional Profile</a>
+      </span>
     </div>
   </footer>
+
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"7b5059dd6be246989c9476796a91cc74"}'></script>
 </body>
 </html>
