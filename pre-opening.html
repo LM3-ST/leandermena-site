@@ -1,72 +1,223 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pre-Opening Services | Leander Mena</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Leander Mena provides hospitality pre-opening support, operational planning, service systems, and launch preparation for food-and-beverage concepts.">
-  <link rel="stylesheet" href="style.css">
-<link rel="canonical" href="https://www.leandermena.com/pre-opening.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pre-Opening Restaurant &amp; Hotel F&B &mdash; Miami | Leander Mena</title>
+  <meta name="description" content="Pre-opening leadership for Miami restaurants and hotel F&B. Staffing, SOPs, training, and opening-night readiness." />
+  <link rel="canonical" href="https://www.leandermena.com/pre-opening.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Inter', system-ui, sans-serif; font-size: 16px; line-height: 1.6; color: #e8e8e8; background: #0a0a0a; min-height: 100dvh; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: #b8a080; text-decoration: none; transition: color 180ms ease; }
+    a:hover { color: #c9b89a; }
+    :root {
+      --gold: #b8a080; --gold-light: #c9b89a; --lux-black: #0a0a0a;
+      --lux-dark: #111111; --lux-card: #141414; --lux-border: #2a2a2a;
+      --lux-text: #e8e8e8; --lux-muted: #888888;
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Inter', system-ui, sans-serif;
+    }
+    .container { max-width: 1100px; margin-inline: auto; padding-inline: 24px; }
+    .site-header { position:fixed; top:0; left:0; right:0; z-index:200; background:rgba(10,10,10,0.88); backdrop-filter:blur(14px); border-bottom:1px solid rgba(184,160,128,0.13); padding:16px 0; }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .brand { font-family:var(--font-display); font-weight:700; font-size:17px; color:var(--lux-text); text-decoration:none; display:flex; flex-direction:column; line-height:1.2; }
+    .brand small { font-family:var(--font-sans); font-size:10px; font-weight:400; color:var(--lux-muted); letter-spacing:0.1em; text-transform:uppercase; }
+    .nav-links { display:flex; gap:24px; flex-wrap:wrap; }
+    .nav-links a { font-size:13px; font-weight:500; color:var(--lux-muted); letter-spacing:0.03em; }
+    .nav-links a:hover { color:var(--gold); }
+    .page-hero { position:relative; min-height:55vh; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+    .page-hero-bg { position:absolute; inset:0; background-image:url('dining.jpg'); background-size:cover; background-position:center; filter:brightness(0.22); }
+    .page-hero-bg::after { content:''; position:absolute; inset:0; background:linear-gradient(to bottom, rgba(10,10,10,0.2) 0%, transparent 40%, rgba(10,10,10,0.95) 100%); }
+    .page-hero-inner { position:relative; z-index:10; text-align:center; padding:140px 24px 80px; }
+    .eyebrow { display:inline-block; font-size:11px; font-weight:600; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); border:1px solid rgba(184,160,128,0.35); padding:6px 18px; margin-bottom:24px; }
+    .page-title { font-family:var(--font-display); font-size:clamp(2rem,5vw,4.5rem); font-weight:800; color:var(--lux-text); line-height:1; margin-bottom:20px; }
+    .divider-gold { width:80px; height:1px; background:linear-gradient(to right, transparent, var(--gold), transparent); margin:0 auto 20px; }
+    .page-sub { font-family:var(--font-serif); font-style:italic; font-size:1.1rem; color:rgba(184,160,128,0.78); }
+    .section { padding:88px 0; }
+    .section.dark { background:var(--lux-black); }
+    .section.mid { background:var(--lux-dark); }
+    .section-header { text-align:center; margin-bottom:56px; }
+    .section-h2 { font-family:var(--font-serif); font-size:clamp(1.8rem,3vw,2.6rem); color:var(--lux-text); margin-bottom:12px; }
+    .section-intro { color:var(--lux-muted); max-width:580px; margin:0 auto; font-size:14px; line-height:1.85; }
+    .timeline { max-width:720px; margin:0 auto; }
+    .timeline-item { display:grid; grid-template-columns:80px 1fr; gap:24px; padding:28px 0; border-bottom:1px solid #1e1e1e; }
+    .timeline-item:last-child { border-bottom:none; }
+    .timeline-phase { font-family:var(--font-serif); font-size:2.2rem; color:rgba(184,160,128,0.2); line-height:1; text-align:right; padding-top:4px; }
+    .timeline-content h3 { font-family:var(--font-serif); font-size:1.2rem; color:var(--lux-text); margin-bottom:8px; }
+    .timeline-content p { font-size:13px; color:#777; line-height:1.8; }
+    .card-grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:rgba(42,42,42,0.4); }
+    .lux-card { background:var(--lux-card); padding:32px; border-bottom:2px solid transparent; transition:border-color 250ms ease; }
+    .lux-card:hover { border-bottom-color:var(--gold); }
+    .card-eyebrow { font-size:10px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; }
+    .card-title { font-family:var(--font-serif); font-size:1.15rem; color:var(--lux-text); margin-bottom:10px; }
+    .card-body { font-size:13px; color:var(--lux-muted); line-height:1.8; }
+    .faq-item { padding:24px 0; border-bottom:1px solid #1e1e1e; }
+    .faq-q { font-size:14px; font-weight:600; color:var(--lux-text); margin-bottom:10px; }
+    .faq-a { font-size:13px; color:#777; line-height:1.8; }
+    .cta-banner { background:linear-gradient(135deg,rgba(20,20,20,0.98),rgba(10,10,10,1)); border-top:1px solid rgba(184,160,128,0.2); border-bottom:1px solid rgba(184,160,128,0.2); padding:88px 0; text-align:center; }
+    .cta-banner h2 { font-family:var(--font-serif); font-size:clamp(1.8rem,3vw,2.6rem); color:var(--lux-text); margin-bottom:16px; }
+    .cta-banner p { color:var(--lux-muted); max-width:500px; margin:0 auto 32px; font-size:14px; line-height:1.8; }
+    .btn-primary { display:inline-flex; align-items:center; gap:8px; padding:13px 28px; font-size:13px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; background:var(--gold); color:#0a0a0a; border:1px solid var(--gold); text-decoration:none; transition:background 180ms ease; }
+    .btn-primary:hover { background:var(--gold-light); color:#0a0a0a; }
+    .btn-secondary { display:inline-flex; align-items:center; gap:8px; padding:13px 28px; font-size:13px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; background:transparent; color:var(--lux-text); border:1px solid rgba(184,160,128,0.4); text-decoration:none; transition:border-color 180ms ease, color 180ms ease; }
+    .btn-secondary:hover { border-color:var(--gold); color:var(--gold); }
+    .site-footer { background:#080808; border-top:1px solid #1a1a1a; padding:28px 0; }
+    .footer-inner { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; font-size:12px; color:var(--lux-muted); }
+    .footer-inner a { color:#555; }
+    .footer-inner a:hover { color:var(--gold); }
+    @media(max-width:768px) { .card-grid-3 { grid-template-columns:1fr; } .nav-links { display:none; } }
+  </style>
 </head>
 <body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/index.html">Leander Mena<small>Hospitality &amp; F&amp;B Operations</small></a>
+      <nav class="nav-links">
+        <a href="/about.html">About</a>
+        <a href="/leander-mena-miami-hospitality.html">Profile</a>
+        <a href="/services.html">Services</a>
+        <a href="/pre-opening.html">Pre-Opening</a>
+        <a href="/experience.html">Experience</a>
+        <a href="/blog/index.html">Articles</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <nav>
-    <div class="logo">Leander Mena</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="philosophy.html">Philosophy</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="pre-opening.html">Preâ€‘Opening</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <section class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="page-hero-inner">
+      <span class="eyebrow">Pre-Opening Services</span>
+      <h1 class="page-title">Pre-Opening Restaurant &amp; Hotel F&amp;B</h1>
+      <div class="divider-gold"></div>
+      <p class="page-sub">From empty shell to opening night &mdash; Miami</p>
+    </div>
+  </section>
 
-<main class="content-page">
-  <h1>Preâ€‘Opening</h1>
-  <h2>Opening restaurants and hotel F&amp;B with control.</h2>
+  <main>
+    <section class="section dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">The 90-Day Framework</span>
+          <h2 class="section-h2">What Pre-Opening Leadership Actually Looks Like</h2>
+          <p class="section-intro">Most Miami restaurant openings fail in the first 90 days not because of the food &mdash; but because the operational foundation was never built. Here's how I approach it.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-phase">D-90</div>
+            <div class="timeline-content">
+              <h3>Operational Blueprint</h3>
+              <p>Define org structure, staffing levels, service model, and vendor requirements. Begin SOP drafting for all FOH and BOH departments. Establish the opening budget and labor model.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">D-60</div>
+            <div class="timeline-content">
+              <h3>Recruiting &amp; Vendor Setup</h3>
+              <p>Begin hiring across all positions. Conduct interviews, reference checks, and onboarding paperwork. Finalize vendor relationships and delivery schedules. Complete training manuals.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">D-30</div>
+            <div class="timeline-content">
+              <h3>Training &amp; Systems Build</h3>
+              <p>Full team training across service standards, POS systems, menu knowledge, and safety protocols. Run mock services. Coordinate health inspections and permits. Final equipment walkthroughs.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">D-7</div>
+            <div class="timeline-content">
+              <h3>Soft Opening &amp; Refinement</h3>
+              <p>Invite-only soft opening to test service flow, kitchen timing, and team communication. Debrief after each service. Adjust staffing, SOP gaps, and pacing before the public opening.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">D-0</div>
+            <div class="timeline-content">
+              <h3>Opening Night</h3>
+              <p>Full operational readiness. All positions staffed and trained. Systems tested. Vendors confirmed. Leadership present on the floor from the first cover to last call.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <p>
-    Openings are where expectations are highest and tolerance for mistakes is lowest. My role is to help
-    you move from construction and design into a calm, organized opening where the team is genuinely ready
-    to serve guests on day one.
-  </p>
+    <section class="section mid">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">What's Included</span>
+          <h2 class="section-h2">Pre-Opening Scope of Work</h2>
+        </div>
+        <div class="card-grid-3">
+          <div class="lux-card">
+            <div class="card-eyebrow">People</div>
+            <h3 class="card-title">Hiring &amp; Team Build</h3>
+            <p class="card-body">Full FOH and BOH recruiting, interviewing, onboarding, and training. Position matrix, scheduling templates, and opening staffing model.</p>
+          </div>
+          <div class="lux-card">
+            <div class="card-eyebrow">Systems</div>
+            <h3 class="card-title">SOPs &amp; Training Materials</h3>
+            <p class="card-body">Complete operational SOP package: service flow, sidework, opening and closing checklists, POS training, and safety protocols.</p>
+          </div>
+          <div class="lux-card">
+            <div class="card-eyebrow">Operations</div>
+            <h3 class="card-title">Vendor &amp; Supply Chain</h3>
+            <p class="card-body">Vendor sourcing, negotiation, and onboarding. Delivery schedules, par levels, and inventory systems set up before day one.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <h3>What I cover</h3>
-  <ul>
-    <li><strong>Staffing and roles</strong> â€” aligning headcount, positions, and schedules with the concept and forecast.</li>
-    <li><strong>Training plans</strong> â€” sequencing classroom, menu, and floor training so information sticks.</li>
-    <li><strong>Service rehearsals</strong> â€” friendsâ€‘andâ€‘family, mock service, and soft openings that expose issues early.</li>
-    <li><strong>Standards and SOPs</strong> â€” checklists, sidework, and guides that teams can actually follow after opening week.</li>
-  </ul>
+    <section class="section dark">
+      <div class="container" style="max-width:720px;">
+        <div class="section-header">
+          <span class="eyebrow">Common Questions</span>
+          <h2 class="section-h2">Pre-Opening FAQ</h2>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">When should I bring in pre-opening support?</p>
+          <p class="faq-a">Ideally 90&ndash;120 days before your target opening date. The earlier, the better &mdash; most problems that cause bad openings are created in the first 60 days of planning.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">Do you work with first-time restaurant owners?</p>
+          <p class="faq-a">Yes. First-time owners benefit the most from pre-opening support because they don't yet know what they don't know. That's exactly the gap this service is built to close.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">What types of concepts do you work with?</p>
+          <p class="faq-a">Independent restaurants, hotel F&amp;B outlets, banquet departments, and catering operations in the Miami &ndash; South Florida market. Fine dining, casual, fast-casual, and everything in between.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">Can you help if we're already past the 90-day mark?</p>
+          <p class="faq-a">Yes. A compressed timeline changes the scope and intensity of the work, but it's manageable. The first call will clarify what's realistic given your timeline.</p>
+        </div>
+      </div>
+    </section>
 
-  <h3>How I work with development teams</h3>
-  <p>
-    I slot in alongside ownership, brand, and design as the operations voice, translating the concept
-    into service flows, staffing plans, and standards that can be executed in a real room by a real team.
-  </p>
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Opening Something in Miami?</h2>
+        <p>The earlier you start, the better the opening. Let's talk about your timeline and what you need to get there.</p>
+        <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+          <a class="btn-primary" href="/contact.html">Start the Conversation</a>
+          <a class="btn-secondary" href="/services.html">All Services &#8594;</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <p>
-    Whether this is your first opening or one of many, we rightâ€‘size the support around the project,
-    timeline, and the internal team you already have in place.
-  </p>
-
-  <p>
-    <a href="contact.html">Start a preâ€‘opening conversation â†’</a>
-  </p>
-</main>
-
-<footer>
-  <p>&copy; <span id="year"></span> Leander Mena</p>
-  <a href="contact.html">Contact</a>
-</footer>
-
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Leander Mena &middot; Miami, Florida</span>
+      <span>Fractional F&amp;B Leadership &middot; Pre-Opening Consulting &middot; SOP Development</span>
+      <span><a href="https://www.linkedin.com/in/leandermena/" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;&middot;&nbsp;<a href="/leander-mena-miami-hospitality.html">Professional Profile</a></span>
+    </div>
+  </footer>
 </body>
 </html>
