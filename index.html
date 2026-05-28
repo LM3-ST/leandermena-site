@@ -6,8 +6,6 @@
   <title>Leander Mena | Miami Hospitality &amp; F&amp;B Operations Leader</title>
   <meta name="description" content="Leander Mena is a Miami-based hospitality and F&B operations leader with 18+ years opening and running restaurants, hotels, banquets, and catering across South Florida." />
   <link rel="canonical" href="https://www.leandermena.com/" />
-  <!-- STEP 1: Paste your GSC verification code below (get it from search.google.com/search-console) -->
-  <!-- <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -28,18 +26,9 @@
     "image": "https://www.leandermena.com/about.jpg",
     "jobTitle": "Fractional F&B Operations Leader",
     "description": "Leander Mena is a Miami-based hospitality and food-and-beverage operations leader with 18+ years of experience opening, leading, and stabilizing restaurants, hotels, banquets, and catering operations across South Florida.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "addressCountry": "US"
-    },
+    "address": {"@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "addressCountry": "US"},
     "knowsAbout": ["Restaurant Operations","Hotel F&B Management","Pre-Opening Restaurant Launch","Banquet Operations","Catering Management","P&L Management","SOP Development","Team Training","Fractional GM Services"],
-    "sameAs": [
-      "https://www.linkedin.com/in/leandermena/",
-      "https://www.leandermena.com/about",
-      "https://www.leandermena.com/leander-mena-miami-hospitality"
-    ]
+    "sameAs": ["https://www.linkedin.com/in/leandermena/","https://www.leandermena.com/about","https://www.leandermena.com/leander-mena-miami-hospitality"]
   }
   </script>
   <script type="application/ld+json">
@@ -55,6 +44,184 @@
     "founder": {"@type": "Person", "name": "Leander Mena"}
   }
   </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-bg: #f7f6f2;
+      --color-surface: #ffffff;
+      --color-text: #1a1916;
+      --color-text-muted: #5a5955;
+      --color-primary: #01696f;
+      --color-primary-hover: #0c4e54;
+      --color-border: #dcd9d4;
+      --color-accent-light: #cedcd8;
+      --font-body: 'Inter', system-ui, sans-serif;
+      --space-1:0.25rem; --space-2:0.5rem; --space-3:0.75rem;
+      --space-4:1rem; --space-6:1.5rem; --space-8:2rem;
+      --space-10:2.5rem; --space-12:3rem; --space-16:4rem;
+      --radius-sm:0.375rem; --radius-md:0.5rem; --radius-lg:0.75rem;
+      --shadow-sm:0 1px 3px rgba(26,25,22,0.07);
+      --shadow-md:0 4px 14px rgba(26,25,22,0.10);
+      --content-default:1080px;
+    }
+    html { scroll-behavior:smooth; -webkit-font-smoothing:antialiased; }
+    body {
+      font-family: var(--font-body);
+      font-size: 1rem; line-height: 1.65;
+      color: var(--color-text); background: var(--color-bg);
+      min-height: 100dvh;
+    }
+    img { display:block; max-width:100%; height:auto; }
+    a { color:var(--color-primary); text-decoration:none; }
+    a:hover { color:var(--color-primary-hover); text-decoration:underline; }
+
+    /* LAYOUT */
+    .container { max-width:var(--content-default); margin-inline:auto; padding-inline:var(--space-6); }
+
+    /* HEADER */
+    .site-header {
+      position:sticky; top:0; z-index:100;
+      background:rgba(247,246,242,0.96);
+      backdrop-filter:blur(8px);
+      border-bottom:1px solid var(--color-border);
+      padding-block:var(--space-4);
+    }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); }
+    .brand {
+      font-weight:700; font-size:1.1rem;
+      color:var(--color-text); text-decoration:none;
+      display:flex; flex-direction:column; line-height:1.2;
+    }
+    .brand small { font-size:0.72rem; font-weight:400; color:var(--color-text-muted); letter-spacing:0.02em; }
+    .nav-links { display:flex; gap:var(--space-6); flex-wrap:wrap; }
+    .nav-links a { font-size:0.875rem; font-weight:500; color:var(--color-text-muted); text-decoration:none; transition:color 180ms ease; }
+    .nav-links a:hover { color:var(--color-primary); text-decoration:none; }
+
+    /* HERO */
+    .hero {
+      padding-block:clamp(3rem,8vw,7rem);
+      background:var(--color-bg);
+      border-bottom:1px solid var(--color-border);
+    }
+    .hero-grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:var(--space-12);
+      align-items:start;
+    }
+    .kicker {
+      display:inline-block; font-size:0.75rem; font-weight:600;
+      letter-spacing:0.08em; text-transform:uppercase;
+      color:var(--color-primary); margin-bottom:var(--space-4);
+    }
+    .hero h1 {
+      font-size:clamp(1.75rem,3.5vw,2.75rem);
+      font-weight:800; line-height:1.15;
+      letter-spacing:-0.02em; color:var(--color-text);
+      margin-bottom:var(--space-4); max-width:36ch;
+    }
+    .lead { font-size:1.05rem; color:var(--color-text-muted); max-width:52ch; margin-bottom:var(--space-8); }
+    .hero-card {
+      background:var(--color-surface);
+      border:1px solid var(--color-border);
+      border-radius:var(--radius-lg);
+      padding:var(--space-8);
+      box-shadow:var(--shadow-md);
+    }
+    .eyebrow {
+      font-size:0.72rem; font-weight:600;
+      letter-spacing:0.07em; text-transform:uppercase;
+      color:var(--color-primary); margin-bottom:var(--space-3);
+    }
+    .hero-card h3 { font-size:1.15rem; font-weight:700; margin-bottom:var(--space-3); line-height:1.3; }
+    .hero-card p { font-size:0.9rem; color:var(--color-text-muted); margin-bottom:var(--space-6); }
+    .metric {
+      display:grid; grid-template-columns:1fr 1fr; gap:var(--space-4);
+      border-top:1px solid var(--color-border); padding-top:var(--space-6);
+    }
+    .metric div { display:flex; flex-direction:column; gap:2px; }
+    .metric strong { font-size:1.4rem; font-weight:800; color:var(--color-primary); line-height:1; }
+    .metric span { font-size:0.75rem; color:var(--color-text-muted); }
+
+    /* BAND */
+    .band { background:var(--color-primary); padding-block:var(--space-4); }
+    .band-list { display:flex; flex-wrap:wrap; gap:var(--space-6); justify-content:center; }
+    .band-list span { font-size:0.8rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#fff; opacity:0.9; }
+
+    /* SECTIONS */
+    .section { padding-block:clamp(3rem,6vw,5rem); border-bottom:1px solid var(--color-border); }
+    .section h2 { font-size:clamp(1.4rem,2.5vw,2rem); font-weight:800; letter-spacing:-0.02em; margin-bottom:var(--space-3); }
+    .section-intro { font-size:1rem; color:var(--color-text-muted); max-width:62ch; margin-bottom:var(--space-8); }
+
+    /* GRIDS */
+    .grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:var(--space-6); margin-bottom:var(--space-8); }
+    .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-6); }
+
+    /* CARDS */
+    .card {
+      background:var(--color-surface);
+      border:1px solid var(--color-border);
+      border-radius:var(--radius-lg);
+      padding:var(--space-6);
+      box-shadow:var(--shadow-sm);
+      transition:box-shadow 180ms ease, transform 180ms ease;
+    }
+    .card:hover { box-shadow:var(--shadow-md); transform:translateY(-2px); }
+    .card h3 { font-size:1rem; font-weight:700; margin-bottom:var(--space-3); line-height:1.3; }
+    .card p { font-size:0.875rem; color:var(--color-text-muted); margin-bottom:var(--space-4); }
+    .card a { font-size:0.875rem; font-weight:600; }
+
+    /* BUTTONS */
+    .btn {
+      display:inline-flex; align-items:center; gap:var(--space-2);
+      padding:0.625rem 1.25rem; border-radius:var(--radius-md);
+      font-size:0.875rem; font-weight:600;
+      text-decoration:none;
+      transition:background 180ms ease, color 180ms ease, border-color 180ms ease;
+      cursor:pointer; border:1.5px solid transparent;
+    }
+    .btn-primary { background:var(--color-primary); color:#fff; border-color:var(--color-primary); }
+    .btn-primary:hover { background:var(--color-primary-hover); border-color:var(--color-primary-hover); color:#fff; text-decoration:none; }
+    .btn-secondary { background:transparent; color:var(--color-primary); border-color:var(--color-primary); }
+    .btn-secondary:hover { background:var(--color-accent-light); color:var(--color-primary-hover); text-decoration:none; }
+    .inline-cta { display:flex; gap:var(--space-3); flex-wrap:wrap; align-items:center; }
+
+    /* CTA PANELS */
+    .cta-panel {
+      background:var(--color-surface);
+      border:1px solid var(--color-border);
+      border-radius:var(--radius-lg);
+      padding:var(--space-8);
+    }
+    .cta-panel h2 { font-size:1.35rem; font-weight:800; margin-bottom:var(--space-4); }
+    .cta-panel p { color:var(--color-text-muted); margin-bottom:var(--space-6); }
+    .list { list-style:none; margin-bottom:var(--space-6); display:flex; flex-direction:column; gap:var(--space-3); }
+    .list li { font-size:0.9rem; color:var(--color-text-muted); padding-left:var(--space-4); position:relative; }
+    .list li::before { content:'\2192'; position:absolute; left:0; color:var(--color-primary); font-weight:600; }
+
+    /* FOOTER */
+    .footer {
+      padding-block:var(--space-8);
+      border-top:1px solid var(--color-border);
+      font-size:0.82rem; color:var(--color-text-muted);
+    }
+    .footer a { color:var(--color-text-muted); }
+    .footer a:hover { color:var(--color-primary); text-decoration:underline; }
+
+    /* RESPONSIVE */
+    @media (max-width:900px) {
+      .hero-grid { grid-template-columns:1fr; }
+      .grid-3 { grid-template-columns:1fr 1fr; }
+      .grid-2 { grid-template-columns:1fr; }
+    }
+    @media (max-width:600px) {
+      .nav-links { display:none; }
+      .grid-3 { grid-template-columns:1fr; }
+      .metric { grid-template-columns:1fr 1fr; }
+      .inline-cta { flex-direction:column; align-items:flex-start; }
+      .band-list { gap:var(--space-3); }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
